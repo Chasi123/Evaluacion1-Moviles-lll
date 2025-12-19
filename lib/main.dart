@@ -32,7 +32,7 @@ class _CuerpoState extends State<Cuerpo> {
   Widget build(BuildContext context) {
     final List<Widget> paginas = [
       Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage("assets/img/fondo.jpg"),
             fit: BoxFit.cover
@@ -50,7 +50,7 @@ class _CuerpoState extends State<Cuerpo> {
         title: Text("Ejercicios"),
         actions: [
           IconButton(
-            icon: const Icon(Icons.info_outline),
+            icon: Icon(Icons.info_outline),
             onPressed: () => _mostrarInfo(context),
           ),
         ],
@@ -65,7 +65,7 @@ class _CuerpoState extends State<Cuerpo> {
             indice = value;
           });
         },
-        items: const [
+        items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.list_alt_rounded), label: 'Ej 2'),
           BottomNavigationBarItem(icon: Icon(Icons.list_alt_rounded), label: 'Ej 3'),
@@ -79,15 +79,18 @@ class _CuerpoState extends State<Cuerpo> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text("Christopher Chasiloa"),
-        content: const Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
+        title: Text("Titulo :Ejercicios de Programación "),
+        
+        content: Column(
           children: [
-            Text("Programador: Juan Paz"),
+            Text("Programador: Christopher  Chasiloa"),
             Text("Carrera: Desarrollo de Software"),
+            
           ],
         ),
+        actions: [
+          BackButton(),
+        ],
       ),
     );
   }

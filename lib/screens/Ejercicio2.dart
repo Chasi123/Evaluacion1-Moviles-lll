@@ -15,7 +15,6 @@ class Ejercicio2 extends StatelessWidget {
 }
 
 Widget presionLiquido(BuildContext context) {
-  // Estos son como tus variables donde se guarda lo que el usuario escribe
   TextEditingController h = TextEditingController();
   TextEditingController d = TextEditingController();
   TextEditingController g = TextEditingController();
@@ -35,7 +34,7 @@ Widget presionLiquido(BuildContext context) {
           if (profundidad < 0) {
             showDialog(
               context: context,
-              builder: (context) => const AlertDialog(
+              builder: (context) => AlertDialog(
                 content: Text("La profundidad no puede ser negativa"),
               ),
             );
@@ -54,7 +53,6 @@ Widget presionLiquido(BuildContext context) {
         child: const Text("Calcular"),
       ),
 
-      // Botones para navegar a los otros ejercicios
       ElevatedButton(
         onPressed: () {
           Navigator.push(context, MaterialPageRoute(builder: (context) => const Ejercicio4()));

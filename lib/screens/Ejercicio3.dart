@@ -20,22 +20,21 @@ Widget proteina(BuildContext context) {
     children: [
       TextField(
         controller: pesoController,
-        decoration: const InputDecoration(labelText: "Peso en kg"),
+        decoration: InputDecoration(labelText: "Peso en kg"),
         keyboardType: TextInputType.number,
       ),
-      const SizedBox(height: 10),
-      const Text("¿Haces ejercicio regularmente?"),
+      Text("¿Haces ejercicio regularmente?"),
       Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+       
         children: [
           ElevatedButton(
             onPressed: () => haceEjercicio = "Si",
-            child: const Text("Sí"),
+            child: Text("Sí"),
           ),
           const SizedBox(width: 10),
           ElevatedButton(
             onPressed: () => haceEjercicio = "No",
-            child: const Text("No"),
+            child: Text("No"),
           ),
         ],
       ),
@@ -53,19 +52,16 @@ Widget proteina(BuildContext context) {
           showDialog(
             context: context,
             builder: (context) => AlertDialog(
-              title: const Text("Resultado"),
+              title: Text("Resultado"),
               content: Text("Debes consumir $resultado gramos de proteína al día."),
               actions: [
-                TextButton(
-                  onPressed: () => Navigator.pop(context),
-                  child: const Text("Cerrar"),
-                )
+              BackButton(),
               ],
             ),
           );
         },
-        child: const Text("Ver Resultado"),
+        child: Text("Ver Resultado"),
       ),
     ],
   );
-}
+} 
