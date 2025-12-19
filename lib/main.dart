@@ -50,7 +50,7 @@ class _CuerpoState extends State<Cuerpo> {
         title: Text("Ejercicios"),
         actions: [
           IconButton(
-            icon: Icon(Icons.info_outline),
+            icon: Icon(Icons.info),
             onPressed: () => _mostrarInfo(context),
           ),
         ],
