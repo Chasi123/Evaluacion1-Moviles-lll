@@ -9,7 +9,19 @@ class Ejercicio2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Presion de un liquido")),
-      body: presionLiquido(context),
+      body: Stack(
+        children: [
+          Container(
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("assets/img/fondo.jpg"),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          presionLiquido(context),
+        ],
+      ),
     );
   }
 }
@@ -34,14 +46,12 @@ Widget presionLiquido(BuildContext context) {
           if (profundidad < 0) {
             showDialog(
               context: context,
-              builder: (context) => AlertDialog(
+              builder: (context) => const AlertDialog(
                 content: Text("La profundidad no puede ser negativa"),
               ),
             );
           } else {
-            // Formula normal
             double presion = densidad * gravedad * profundidad;
-
             showDialog(
               context: context,
               builder: (context) => AlertDialog(
@@ -57,14 +67,14 @@ Widget presionLiquido(BuildContext context) {
         onPressed: () {
           Navigator.push(context, MaterialPageRoute(builder: (context) => const Ejercicio4()));
         },
-        child: const Text("Ir al Ejercicio 4"),
+        child: const Text("Ir al Ejercicio 3"),
       ),
       
       ElevatedButton(
         onPressed: () {
           Navigator.push(context, MaterialPageRoute(builder: (context) => const Ejercicio5()));
         },
-        child: const Text("Ir al Ejercicio 5"),
+        child: const Text("Ir al Ejercicio 4"),
       ),
     ],
   );

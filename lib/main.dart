@@ -67,8 +67,8 @@ class _CuerpoState extends State<Cuerpo> {
         },
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.list_alt_rounded), label: 'Ej 1'),
           BottomNavigationBarItem(icon: Icon(Icons.list_alt_rounded), label: 'Ej 2'),
-          BottomNavigationBarItem(icon: Icon(Icons.list_alt_rounded), label: 'Ej 3'),
 
         ],
       ),

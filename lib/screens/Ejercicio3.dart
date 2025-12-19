@@ -40,7 +40,7 @@ Widget proteina(BuildContext context) {
       ),
       ElevatedButton(
         onPressed: () {
-          double peso = double.tryParse(pesoController.text) ?? 0;
+          double peso = double.parse(pesoController.text) ;
           double resultado;
 
           if (haceEjercicio == "Si") {
