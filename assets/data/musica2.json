@@ -1,0 +1,578 @@
+{
+  "musica": [
+    {
+      "id": "song1",
+      "title": "Bohemian Rhapsody",
+      "artist": {
+        "name": "Queen",
+        "genre": "Rock",
+        "subgenres": ["Progressive Rock", "Hard Rock", "Operatic Rock"],
+        "year_formed": 1970,
+        "country_of_origin": "United Kingdom",
+        "biography": "Queen fue una banda británica formada en Londres en 1970, conocida por su estilo ecléctico y las habilidades vocales de Freddie Mercury.",
+        "members": [
+          { "name": "Freddie Mercury", "role": "Vocalista y pianista", "active_years": "1970–1991" },
+          { "name": "Brian May", "role": "Guitarrista", "active_years": "1970–presente" },
+          { "name": "Roger Taylor", "role": "Baterista", "active_years": "1970–presente" },
+          { "name": "John Deacon", "role": "Bajista", "active_years": "1971–1997" }
+        ],
+        "social_media": {
+          "website": "https://www.queenonline.com",
+          "instagram": "@officialqueenmusic",
+          "twitter": "@QueenWillRock"
+        }
+      },
+      "album": {
+        "title": "A Night at the Opera",
+        "year": 1975,
+        "producer": "Roy Thomas Baker, Queen",
+        "record_label": "EMI",
+        "total_tracks": 12,
+        "duration_total": "43:08",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/Bohemian_Rhapsody.png",
+        "reviews": {
+          "average_rating": 4.9,
+          "critic_score": "95/100",
+          "notable_review": "Considerado uno de los mejores álbumes de la historia del rock."
+        }
+      },
+      "year": 1975,
+      "duration": "5:55",
+      "duration_seconds": 355,
+      "lyrics_snippet": "Is this the real life? Is this just fantasy?",
+      "writers": ["Freddie Mercury"],
+      "bpm": 144,
+      "key": "B♭ minor",
+      "awards": ["Grammy Hall of Fame", "Brit Award for British Single of the Year (1977)"],
+      "popularity": {
+        "spotify_monthly_listeners": 25000000,
+        "youtube_views": 1800000000,
+        "chart_peak": { "billboard_hot_100": 9, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["Classic Rock Essentials", "70s Hits", "Queen Greatest Hits"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/Bohemian_Rhapsody.png",
+        "audio_format": "MP3",
+        "audio_quality": "320 kbps",
+        "file_size_mb": 13.8
+      },
+      "related_songs": ["song9", "song10"],
+      "similar_artists": ["Led Zeppelin", "The Beatles", "David Bowie"]
+    },
+    {
+      "id": "song2",
+      "title": "Imagine",
+      "artist": {
+        "name": "John Lennon",
+        "genre": "Pop",
+        "subgenres": ["Soft Rock", "Piano Ballad", "Protest Song"],
+        "year_formed": 1960,
+        "country_of_origin": "United Kingdom",
+        "biography": "John Lennon fue un músico, cantante y compositor británico, cofundador de The Beatles y figura icónica del movimiento pacifista.",
+        "members": null,
+        "social_media": {
+          "website": "https://www.johnlennon.com",
+          "instagram": "@johnlennon",
+          "twitter": "@johnlennon"
+        }
+      },
+      "album": {
+        "title": "Imagine",
+        "year": 1971,
+        "producer": "John Lennon, Yoko Ono, Phil Spector",
+        "record_label": "Apple Records",
+        "total_tracks": 10,
+        "duration_total": "39:42",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/ImagineCover.jpg",
+        "reviews": {
+          "average_rating": 4.8,
+          "critic_score": "92/100",
+          "notable_review": "Un himno universal por la paz y la unidad humana."
+        }
+      },
+      "year": 1971,
+      "duration": "3:03",
+      "duration_seconds": 183,
+      "lyrics_snippet": "Imagine there's no heaven, it's easy if you try...",
+      "writers": ["John Lennon", "Yoko Ono"],
+      "bpm": 75,
+      "key": "C major",
+      "awards": ["Grammy Hall of Fame", "Rolling Stone: #3 Greatest Song of All Time"],
+      "popularity": {
+        "spotify_monthly_listeners": 18000000,
+        "youtube_views": 650000000,
+        "chart_peak": { "billboard_hot_100": 3, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["Peace Anthems", "70s Classics", "Songs That Changed the World"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=YkgkThdzX-8",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/ImagineCover.jpg",
+        "audio_format": "FLAC",
+        "audio_quality": "Lossless",
+        "file_size_mb": 32.1
+      },
+      "related_songs": ["song10", "song5"],
+      "similar_artists": ["Paul McCartney", "George Harrison", "Bob Dylan"]
+    },
+    {
+      "id": "song3",
+      "title": "Hotel California",
+      "artist": {
+        "name": "Eagles",
+        "genre": "Rock",
+        "subgenres": ["Soft Rock", "Country Rock", "Classic Rock"],
+        "year_formed": 1971,
+        "country_of_origin": "United States",
+        "biography": "The Eagles son una banda estadounidense famosa por su fusión de rock y country, y por éxitos como 'Hotel California'.",
+        "members": [
+          { "name": "Don Henley", "role": "Vocalista y baterista", "active_years": "1971–1980, 1994–presente" },
+          { "name": "Glenn Frey", "role": "Vocalista y guitarrista", "active_years": "1971–1980, 1994–2016" },
+          { "name": "Joe Walsh", "role": "Guitarrista", "active_years": "1975–1980, 1994–presente" },
+          { "name": "Timothy B. Schmit", "role": "Bajista", "active_years": "1977–1980, 1994–presente" }
+        ],
+        "social_media": {
+          "website": "https://www.eagles.com",
+          "instagram": "@eagles",
+          "twitter": "@Eagles"
+        }
+      },
+      "album": {
+        "title": "Hotel California",
+        "year": 1976,
+        "producer": "Bill Szymczyk",
+        "record_label": "Asylum Records",
+        "total_tracks": 9,
+        "duration_total": "43:28",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/hotelcalifornia.jpg",
+        "reviews": {
+          "average_rating": 4.9,
+          "critic_score": "98/100",
+          "notable_review": "Un álbum conceptual que define la era dorada del rock californiano."
+        }
+      },
+      "year": 1976,
+      "duration": "6:30",
+      "duration_seconds": 390,
+      "lyrics_snippet": "On a dark desert highway, cool wind in my hair...",
+      "writers": ["Don Felder", "Don Henley", "Glenn Frey"],
+      "bpm": 116,
+      "key": "B minor",
+      "awards": ["Grammy Award for Record of the Year (1978)", "Rock and Roll Hall of Fame"],
+      "popularity": {
+        "spotify_monthly_listeners": 22000000,
+        "youtube_views": 1200000000,
+        "chart_peak": { "billboard_hot_100": 1, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["Classic Rock Road Trip", "70s Masterpieces", "Guitar Solos"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=EqPtz5qN7HM",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/hotelcalifornia.jpg",
+        "audio_format": "MP3",
+        "audio_quality": "320 kbps",
+        "file_size_mb": 15.2
+      },
+      "related_songs": ["song1", "song9"],
+      "similar_artists": ["Fleetwood Mac", "Lynyrd Skynyrd", "Jackson Browne"]
+    },
+    {
+      "id": "song4",
+      "title": "Smells Like Teen Spirit",
+      "artist": {
+        "name": "Nirvana",
+        "genre": "Grunge",
+        "subgenres": ["Alternative Rock", "Punk Rock"],
+        "year_formed": 1987,
+        "country_of_origin": "United States",
+        "biography": "Nirvana fue una banda estadounidense que lideró el movimiento grunge en los 90, con Kurt Cobain como figura central.",
+        "members": [
+          { "name": "Kurt Cobain", "role": "Vocalista y guitarrista", "active_years": "1987–1994" },
+          { "name": "Krist Novoselic", "role": "Bajista", "active_years": "1987–1994" },
+          { "name": "Dave Grohl", "role": "Baterista", "active_years": "1990–1994" }
+        ],
+        "social_media": {
+          "website": "https://www.nirvana.com",
+          "instagram": "@nirvana",
+          "twitter": "@Nirvana"
+        }
+      },
+      "album": {
+        "title": "Nevermind",
+        "year": 1991,
+        "producer": "Butch Vig",
+        "record_label": "DGC Records",
+        "total_tracks": 12,
+        "duration_total": "42:14",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/nirvana.jpg",
+        "reviews": {
+          "average_rating": 4.9,
+          "critic_score": "100/100",
+          "notable_review": "El álbum que cambió el curso del rock en los 90."
+        }
+      },
+      "year": 1991,
+      "duration": "5:01",
+      "duration_seconds": 301,
+      "lyrics_snippet": "With the lights out, it's less dangerous...",
+      "writers": ["Kurt Cobain", "Krist Novoselic", "Dave Grohl"],
+      "bpm": 116,
+      "key": "F minor",
+      "awards": ["Grammy Hall of Fame", "MTV Video Music Award"],
+      "popularity": {
+        "spotify_monthly_listeners": 20000000,
+        "youtube_views": 1500000000,
+        "chart_peak": { "billboard_hot_100": 6, "uk_singles_chart": 7 }
+      },
+      "playlists_featured": ["90s Alternative", "Grunge Essentials", "Teen Anthems"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=hTWKbfoikeg",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/nirvana.jpg",
+        "audio_format": "MP3",
+        "audio_quality": "320 kbps",
+        "file_size_mb": 12.0
+      },
+      "related_songs": ["song5", "song7"],
+      "similar_artists": ["Pearl Jam", "Soundgarden", "Alice in Chains"]
+    },
+    {
+      "id": "song5",
+      "title": "Billie Jean",
+      "artist": {
+        "name": "Michael Jackson",
+        "genre": "Pop",
+        "subgenres": ["R&B", "Funk", "Dance-Pop"],
+        "year_formed": 1964,
+        "country_of_origin": "United States",
+        "biography": "Michael Jackson, el 'Rey del Pop', revolucionó la música y el entretenimiento con su innovación y espectáculo.",
+        "members": null,
+        "social_media": {
+          "website": "https://www.michaeljackson.com",
+          "instagram": "@michaeljackson",
+          "twitter": "@michaeljackson"
+        }
+      },
+      "album": {
+        "title": "Thriller",
+        "year": 1982,
+        "producer": "Quincy Jones",
+        "record_label": "Epic Records",
+        "total_tracks": 9,
+        "duration_total": "42:19",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/billy.jpg",
+        "reviews": {
+          "average_rating": 5.0,
+          "critic_score": "100/100",
+          "notable_review": "El álbum más vendido de todos los tiempos."
+        }
+      },
+      "year": 1982,
+      "duration": "4:54",
+      "duration_seconds": 294,
+      "lyrics_snippet": "She says I am the one, but the kid is not my son...",
+      "writers": ["Michael Jackson"],
+      "bpm": 117,
+      "key": "F# minor",
+      "awards": ["Grammy Award for Best R&B Song", "MTV Video Vanguard Award"],
+      "popularity": {
+        "spotify_monthly_listeners": 28000000,
+        "youtube_views": 1300000000,
+        "chart_peak": { "billboard_hot_100": 1, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["80s Dance Hits", "Pop Legends", "Moonwalk Anthems"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/billy.jpg",
+        "audio_format": "MP3",
+        "audio_quality": "320 kbps",
+        "file_size_mb": 11.7
+      },
+      "related_songs": ["song4", "song6"],
+      "similar_artists": ["Prince", "Whitney Houston", "Janet Jackson"]
+    },
+    {
+      "id": "song6",
+      "title": "Shape of You",
+      "artist": {
+        "name": "Ed Sheeran",
+        "genre": "Pop",
+        "subgenres": ["Dancehall", "Tropical House", "Acoustic Pop"],
+        "year_formed": 2004,
+        "country_of_origin": "United Kingdom",
+        "biography": "Ed Sheeran es un cantautor británico conocido por sus letras emotivas y fusión de géneros contemporáneos.",
+        "members": null,
+        "social_media": {
+          "website": "https://www.edsheeran.com",
+          "instagram": "@teddysphotos",
+          "twitter": "@edsheeran"
+        }
+      },
+      "album": {
+        "title": "Divide (÷)",
+        "year": 2017,
+        "producer": "Steve Mac, Ed Sheeran",
+        "record_label": "Atlantic Records",
+        "total_tracks": 16,
+        "duration_total": "53:36",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/divide.png",
+        "reviews": {
+          "average_rating": 4.6,
+          "critic_score": "82/100",
+          "notable_review": "Un álbum global que rompió récords de streaming."
+        }
+      },
+      "year": 2017,
+      "duration": "4:24",
+      "duration_seconds": 264,
+      "lyrics_snippet": "The club isn't the best place to find a lover...",
+      "writers": ["Ed Sheeran", "Steve Mac", "Johnny McDaid"],
+      "bpm": 96,
+      "key": "C# minor",
+      "awards": ["Grammy Nomination", "Billboard Music Award for Top Hot 100 Song"],
+      "popularity": {
+        "spotify_monthly_listeners": 85000000,
+        "youtube_views": 5800000000,
+        "chart_peak": { "billboard_hot_100": 1, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["Today's Top Hits", "Pop Rising", "Workout Mix"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/divide.png",
+        "audio_format": "AAC",
+        "audio_quality": "256 kbps",
+        "file_size_mb": 10.2
+      },
+      "related_songs": ["song7", "song8"],
+      "similar_artists": ["Shawn Mendes", "Lewis Capaldi", "Sam Smith"]
+    },
+    {
+      "id": "song7",
+      "title": "Rolling in the Deep",
+      "artist": {
+        "name": "Adele",
+        "genre": "Pop",
+        "subgenres": ["Soul", "Blues", "R&B"],
+        "year_formed": 2006,
+        "country_of_origin": "United Kingdom",
+        "biography": "Adele es una cantante británica aclamada por su voz poderosa y letras emotivas sobre el amor y el desamor.",
+        "members": null,
+        "social_media": {
+          "website": "https://www.adele.com",
+          "instagram": "@adele",
+          "twitter": "@Adele"
+        }
+      },
+      "album": {
+        "title": "21",
+        "year": 2010,
+        "producer": "Paul Epworth, Rick Rubin",
+        "record_label": "XL Recordings",
+        "total_tracks": 11,
+        "duration_total": "48:52",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/adele.jpg",
+        "reviews": {
+          "average_rating": 4.9,
+          "critic_score": "88/100",
+          "notable_review": "Un álbum que redefinió el soul moderno."
+        }
+      },
+      "year": 2010,
+      "duration": "3:48",
+      "duration_seconds": 228,
+      "lyrics_snippet": "There's a fire starting in my heart...",
+      "writers": ["Adele Adkins", "Paul Epworth"],
+      "bpm": 104,
+      "key": "A minor",
+      "awards": ["Grammy Award for Record of the Year", "Grammy Award for Song of the Year"],
+      "popularity": {
+        "spotify_monthly_listeners": 55000000,
+        "youtube_views": 2300000000,
+        "chart_peak": { "billboard_hot_100": 1, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["Soulful Vibes", "Breakup Songs", "Female Power"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=rYEDA3JcQqw",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/adele.jpg",
+        "audio_format": "MP3",
+        "audio_quality": "320 kbps",
+        "file_size_mb": 9.0
+      },
+      "related_songs": ["song6", "song5"],
+      "similar_artists": ["Amy Winehouse", "Sam Smith", "Florence + The Machine"]
+    },
+    {
+      "id": "song8",
+      "title": "Uptown Funk",
+      "artist": {
+        "name": "Mark Ronson ft. Bruno Mars",
+        "genre": "Funk",
+        "subgenres": ["Disco", "R&B", "Pop"],
+        "year_formed": 2003,
+        "country_of_origin": "United Kingdom / United States",
+        "biography": "Colaboración entre el productor británico Mark Ronson y el cantante estadounidense Bruno Mars, celebrada por su energía retro.",
+        "members": null,
+        "social_media": {
+          "website": "https://www.markronson.co.uk",
+          "instagram": "@markronson, @brunomars",
+          "twitter": "@MarkRonson, @BrunoMars"
+        }
+      },
+      "album": {
+        "title": "Uptown Special",
+        "year": 2014,
+        "producer": "Mark Ronson, Jeff Bhasker",
+        "record_label": "RCA Records",
+        "total_tracks": 11,
+        "duration_total": "45:12",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/funk.jpg",
+        "reviews": {
+          "average_rating": 4.5,
+          "critic_score": "76/100",
+          "notable_review": "Un homenaje vibrante al funk y el soul de los 80."
+        }
+      },
+      "year": 2014,
+      "duration": "4:30",
+      "duration_seconds": 270,
+      "lyrics_snippet": "This hit, that ice cold, Michelle Pfeiffer, that white gold...",
+      "writers": ["Bruno Mars", "Mark Ronson", "Philip Lawrence", "Jeff Bhasker"],
+      "bpm": 115,
+      "key": "D minor",
+      "awards": ["Grammy Award for Record of the Year", "Brit Award for British Single"],
+      "popularity": {
+        "spotify_monthly_listeners": 45000000,
+        "youtube_views": 4900000000,
+        "chart_peak": { "billboard_hot_100": 1, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["Party Hits", "Funk Revival", "Dance Classics"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/funk.jpg",
+        "audio_format": "MP3",
+        "audio_quality": "320 kbps",
+        "file_size_mb": 10.8
+      },
+      "related_songs": ["song6", "song5"],
+      "similar_artists": ["Bruno Mars", "Justin Timberlake", "Earth, Wind & Fire"]
+    },
+    {
+      "id": "song9",
+      "title": "Stairway to Heaven",
+      "artist": {
+        "name": "Led Zeppelin",
+        "genre": "Rock",
+        "subgenres": ["Hard Rock", "Folk Rock", "Progressive Rock"],
+        "year_formed": 1968,
+        "country_of_origin": "United Kingdom",
+        "biography": "Led Zeppelin fue una de las bandas más influyentes del rock, conocida por su potencia y experimentación musical.",
+        "members": [
+          { "name": "Robert Plant", "role": "Vocalista", "active_years": "1968–1980" },
+          { "name": "Jimmy Page", "role": "Guitarrista", "active_years": "1968–1980" },
+          { "name": "John Paul Jones", "role": "Bajista y tecladista", "active_years": "1968–1980" },
+          { "name": "John Bonham", "role": "Baterista", "active_years": "1968–1980" }
+        ],
+        "social_media": {
+          "website": "https://www.ledzeppelin.com",
+          "instagram": "@ledzeppelin",
+          "twitter": "@ledzeppelin"
+        }
+      },
+      "album": {
+        "title": "Led Zeppelin IV",
+        "year": 1971,
+        "producer": "Jimmy Page",
+        "record_label": "Atlantic Records",
+        "total_tracks": 8,
+        "duration_total": "42:34",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/led-z.jpg",
+        "reviews": {
+          "average_rating": 5.0,
+          "critic_score": "100/100",
+          "notable_review": "Considerado el mejor álbum de rock de todos los tiempos por muchos críticos."
+        }
+      },
+      "year": 1971,
+      "duration": "8:02",
+      "duration_seconds": 482,
+      "lyrics_snippet": "There's a lady who's sure all that glitters is gold...",
+      "writers": ["Jimmy Page", "Robert Plant"],
+      "bpm": 63,
+      "key": "A minor",
+      "awards": ["Grammy Lifetime Achievement Award", "Rolling Stone: #1 Guitar Solo of All Time"],
+      "popularity": {
+        "spotify_monthly_listeners": 19000000,
+        "youtube_views": 850000000,
+        "chart_peak": { "billboard_hot_100": "No charteó (no fue single)", "uk_singles_chart": "No lanzado como single" }
+      },
+      "playlists_featured": ["Epic Rock Journeys", "70s Rock Anthems", "Guitar Legends"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=QkF3oxziUI4",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/led-z.jpg",
+        "audio_format": "FLAC",
+        "audio_quality": "Lossless",
+        "file_size_mb": 42.5
+      },
+      "related_songs": ["song1", "song3"],
+      "similar_artists": ["Deep Purple", "Black Sabbath", "The Who"]
+    },
+    {
+      "id": "song10",
+      "title": "Hey Jude",
+      "artist": {
+        "name": "The Beatles",
+        "genre": "Rock",
+        "subgenres": ["Pop Rock", "Psychedelic Pop", "Baroque Pop"],
+        "year_formed": 1960,
+        "country_of_origin": "United Kingdom",
+        "biography": "The Beatles fueron una banda británica que transformó la música popular en los 60 y se convirtieron en un fenómeno cultural global.",
+        "members": [
+          { "name": "John Lennon", "role": "Vocalista y guitarrista", "active_years": "1960–1970" },
+          { "name": "Paul McCartney", "role": "Vocalista y bajista", "active_years": "1960–1970" },
+          { "name": "George Harrison", "role": "Guitarrista", "active_years": "1960–1970" },
+          { "name": "Ringo Starr", "role": "Baterista", "active_years": "1962–1970" }
+        ],
+        "social_media": {
+          "website": "https://www.thebeatles.com",
+          "instagram": "@thebeatles",
+          "twitter": "@thebeatles"
+        }
+      },
+      "album": {
+        "title": "Hey Jude (compilation)",
+        "year": 1970,
+        "producer": "George Martin",
+        "record_label": "Apple Records",
+        "total_tracks": 12,
+        "duration_total": "47:10",
+        "cover_art_url": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/heyjudejpg.jpg",
+        "reviews": {
+          "average_rating": 4.8,
+          "critic_score": "90/100",
+          "notable_review": "Aunque fue un single, su impacto fue monumental."
+        }
+      },
+      "year": 1968,
+      "duration": "7:08",
+      "duration_seconds": 428,
+      "lyrics_snippet": "Hey Jude, don't make it bad, take a sad song and make it better...",
+      "writers": ["Paul McCartney"],
+      "bpm": 74,
+      "key": "F major",
+      "awards": ["Grammy Hall of Fame", "NME: Greatest Song of All Time (2014)"],
+      "popularity": {
+        "spotify_monthly_listeners": 21000000,
+        "youtube_views": 780000000,
+        "chart_peak": { "billboard_hot_100": 1, "uk_singles_chart": 1 }
+      },
+      "playlists_featured": ["60s Classics", "Feel-Good Songs", "Beatles Essentials"],
+      "media": {
+        "url": "https://www.youtube.com/watch?v=A_MjCqQoLLA",
+        "cover_image": "https://raw.githubusercontent.com/jritsqmet/web-api/main/assets/images/api-musica/heyjudejpg.jpg",
+        "audio_format": "MP3",
+        "audio_quality": "320 kbps",
+        "file_size_mb": 17.0
+      },
+      "related_songs": ["song2", "song1"],
+      "similar_artists": ["The Rolling Stones", "The Who", "The Kinks"]
+    }
+  ]
+}

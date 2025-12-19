@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:app_evaluacion/screens/Ejercicio4.dart';
+import 'package:app_evaluacion/screens/Ejercicio5.dart';
 
 class Ejercicio2 extends StatelessWidget {
   const Ejercicio2({super.key});
@@ -6,14 +8,14 @@ class Ejercicio2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Ejercicio 2")),
+      appBar: AppBar(title: const Text("Presion de un liquido")),
       body: presionLiquido(context),
     );
   }
 }
 
-
 Widget presionLiquido(BuildContext context) {
+  // Estos son como tus variables donde se guarda lo que el usuario escribe
   TextEditingController h = TextEditingController();
   TextEditingController d = TextEditingController();
   TextEditingController g = TextEditingController();
@@ -27,8 +29,8 @@ Widget presionLiquido(BuildContext context) {
       ElevatedButton(
         onPressed: () {
           double profundidad = double.parse(h.text);
-          double densidad = d.text.isEmpty ? 1000 : double.parse(d.text);
-          double gravedad = g.text.isEmpty ? 9.8 : double.parse(g.text);
+          double densidad = double.parse(d.text);
+          double gravedad = double.parse(g.text);
 
           if (profundidad < 0) {
             showDialog(
@@ -38,7 +40,9 @@ Widget presionLiquido(BuildContext context) {
               ),
             );
           } else {
+            // Formula normal
             double presion = densidad * gravedad * profundidad;
+
             showDialog(
               context: context,
               builder: (context) => AlertDialog(
@@ -48,6 +52,21 @@ Widget presionLiquido(BuildContext context) {
           }
         },
         child: const Text("Calcular"),
+      ),
+
+      // Botones para navegar a los otros ejercicios
+      ElevatedButton(
+        onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => const Ejercicio4()));
+        },
+        child: const Text("Ir al Ejercicio 4"),
+      ),
+      
+      ElevatedButton(
+        onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => const Ejercicio5()));
+        },
+        child: const Text("Ir al Ejercicio 5"),
       ),
     ],
   );
